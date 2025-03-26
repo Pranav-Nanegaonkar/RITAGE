@@ -1,0 +1,61 @@
+/* -----------------Fonts----------------- */
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+@import url("https://fonts.cdnfonts.com/css/cooper-black");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.centerit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cooper-Black {
+  font-family: "Cooper Black", sans-serif;
+}
+
+.shadow-hero {
+  text-shadow: rgb(204, 153, 255) 0px 0px 5px;
+}
+
+.container input:focus {
+  border: 0.5px solid #50afe4; /* Change border color to blue */
+  outline: none; /* Removes default focus outline */
+  box-shadow: 0 0 5px #50afe4;
+}
+
+.birthday {
+  font-style: italic;
+  padding: 1em;
+  font-size: 13px;
+  font-weight: 600;
+  color: #428bca;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.alert-danger {
+  color: #ff0000;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 1.5px 5px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.studentblockborder{
+  background-color: white;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  /* bg-white border rounded border-[#999999] */
+}
