@@ -115,11 +115,14 @@ Ensure you have the following installed:
 ![Login Page](screenshots/login.png)  
 *Caption: The login page where students enter their PRN and password to access the portal.*
 
+![Year Selection](screenshots/year-selection.png)  
+*Caption: Drop-down menu to select academic year and part.*
+
+![Filled Login](screenshots/login-filled.png)  
+*Caption: Login form filled with PRN and password.*
+
 ![Student Dashboard](screenshots/dashboard.png)  
 *Caption: The student dashboard displaying various features like Profile, Attendance, and Online Fees Payments.*
-
-*Instructions*: Save your screenshots in a `screenshots` folder in the repository with names `login.png` and `dashboard.png`. Update the file paths above if different.
-
 ## 📌 Project Status
 
 | Feature                     | Status                     |
